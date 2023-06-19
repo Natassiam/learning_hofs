@@ -1,0 +1,53 @@
+  body {
+    display: flex;
+    background-color: #151715;
+    align-items: center;
+
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(17, 192, 55);
+    text-shadow: -1px -1px white, 1px 1px #333;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  div .logo {
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    position: sticky;
+    margin: 5em;
+  }
+
+  div img {
+    height: auto;
+    width: 45rem;
+  }
+
+  h3 {
+    font-size: 16px;
+    color-scheme: inherit;
+    color: rgb(226, 154, 20);
+    text-shadow: -1px -1px rgb(181, 45, 45), 1px 1px #333;
+  }
+
+  ul>li {
+    font-size: 16px;
+    color: aliceblue;
+    mask-type: luminance;
+
+  }

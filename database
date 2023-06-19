@@ -1,0 +1,85 @@
+const demonSlayerCharacters = [
+  {
+    name: "Tanjiro Kamado",
+    age: 15,
+    rank: "Demon Slayer",
+    breathingTechnique: "Water Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Third Form"],
+    gender: "male",
+  },
+  {
+    name: "Nezuko Kamado",
+    age: 14,
+    rank: "Demon",
+    demonArt: true,
+    levelsBreathing: [],
+    gender: "female"
+  },
+  {
+    name: "Zenitsu Agatsuma",
+    age: 16,
+    rank: "Demon Slayer",
+    breathingTechnique: "Thunder Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form"],
+    gender: "male",
+  },
+  {
+    name: "Inosuke Hashibira",
+    age: 15,
+    rank: "Demon Slayer",
+    breathingTechnique: "Beast Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Third Form", "Final Form"],
+    gender: "male",
+  },
+  {
+    name: "Giyu Tomioka",
+    age: 24,
+    rank: "Pillar",
+    breathingTechnique: "Water Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Eleventh Form"],
+    gender: "male",
+  },
+  {
+    name: "Kyojuro Rengoku",
+    age: 20,
+    rank: "Pillar",
+    breathingTechnique: "Flame Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Third Form", "Flame Hashira Form"],
+    gender: "male",
+  },
+  {
+    name: "Shinobu Kocho",
+    age: 19,
+    rank: "Pillar",
+    breathingTechnique: "Insect Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Butterfly Dance"],
+    gender: "male",
+  },
+  {
+    name: "Tengen Uzui",
+    age: 32,
+    rank: "Pillar",
+    breathingTechnique: "Sound Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Third Form", "Sixteenth Form"],
+    gender: "male",
+  },
+  {
+    name: "Mitsuri Kanroji",
+    age: 21,
+    rank: "Pillar",
+    breathingTechnique: "Love Breathing",
+    demonArt: false,
+    levelsBreathing: ["First Form", "Second Form", "Third Form", "Fifth Form"],
+    gender: "female",
+  }
+];
+
+
+ module.exports = demonSlayerCharacters;
