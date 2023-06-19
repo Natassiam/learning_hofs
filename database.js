@@ -14,7 +14,7 @@ const demonSlayerCharacters = [
     rank: "Demon",
     demonArt: true,
     levelsBreathing: [],
-    gender: "female"
+    gender: "female",
   },
   {
     name: "Zenitsu Agatsuma",
@@ -49,7 +49,12 @@ const demonSlayerCharacters = [
     rank: "Pillar",
     breathingTechnique: "Flame Breathing",
     demonArt: false,
-    levelsBreathing: ["First Form", "Second Form", "Third Form", "Flame Hashira Form"],
+    levelsBreathing: [
+      "First Form",
+      "Second Form",
+      "Third Form",
+      "Flame Hashira Form",
+    ],
     gender: "male",
   },
   {
@@ -67,7 +72,12 @@ const demonSlayerCharacters = [
     rank: "Pillar",
     breathingTechnique: "Sound Breathing",
     demonArt: false,
-    levelsBreathing: ["First Form", "Second Form", "Third Form", "Sixteenth Form"],
+    levelsBreathing: [
+      "First Form",
+      "Second Form",
+      "Third Form",
+      "Sixteenth Form",
+    ],
     gender: "male",
   },
   {
@@ -78,8 +88,7 @@ const demonSlayerCharacters = [
     demonArt: false,
     levelsBreathing: ["First Form", "Second Form", "Third Form", "Fifth Form"],
     gender: "female",
-  }
-];
+  },
+]
 
-
- module.exports = demonSlayerCharacters;
+module.exports = demonSlayerCharacters
